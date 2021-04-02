@@ -7,7 +7,14 @@
     <title>Document</title>
 </head>
 <body>
-    <transient-style remove-when='["transient-style"]' is-defined></transient-style>
+    <transient-style remove-when='["transient-style"]' is-defined>
+        <style>
+            * {
+                display: none;
+            }
+        </style>
+    </transient-style>
+    <div>Forgive them; for they do not know what they are doing.</div>
     <script type=module src=../transient-style.js></script>
 </body>
 </html>

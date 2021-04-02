@@ -9,12 +9,13 @@ Plus there's overhead to having styles which aren't meant to apply to anything, 
 Syntax:
 
 ```html
-<transient-style remove-when='["my-custom-element-1", "my-custom-element-2"]' is-defined>
+<transient-style remove-when='["transient-style"]' is-defined>
     <style>
-        my-class:{
-            color:red;
+        * {
+            display: none;
         }
     </style>
 </transient-style>
+<div>Forgive them; for they do not know what they are doing.</div>
 ```
 
