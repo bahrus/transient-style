@@ -19,3 +19,4 @@ export class TransientStyle extends HTMLElement{
         });
     }
 }
+customElements.define('transient-style', TransientStyle);

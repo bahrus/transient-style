@@ -20,3 +20,4 @@ export class TransientStyle extends HTMLElement {
     }
 }
 TransientStyle.observedAttributes = ['is-defined', 'remove-when'];
+customElements.define('transient-style', TransientStyle);

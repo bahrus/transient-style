@@ -1,8 +1,10 @@
 # transient-style
 
-Providing initial css rules for light children, prior to be slotted, provides a useful service as far as avoiding FOUC.  But it presents its own issues as far as avoiding encapsulation / leaking on other non shadow children.
+transient-style is a martyr component.  It removes itself from the DOM tree when the web component definitions it monitors for become registered. 
 
-Plus there's overhead to having styles which aren't meant to apply to anything.
+The biggest use case is providing initial css rules for light children, prior to being slotted.  This is important for avoiding FOUC.  But leaving the styles behind when no longer applicable, could have a lasting negative impact on other light children waiting for their web components to become registered, as well as non-shadowed content.
+
+Plus there's overhead to having styles which aren't meant to apply to anything, sitting there for no reason.
 
 Syntax:
 
@@ -16,4 +18,3 @@ Syntax:
 </transient-style>
 ```
 
-When all the specified custom elements are registered, delete the style (or link) tags contained within.

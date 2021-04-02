@@ -4,7 +4,11 @@
   "description": "TBD",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "node node_modules/xtal-test/serve.js"
+  },
+  "devDependencies": {
+    "xtal-test": "0.0.50"
   },
   "repository": {
     "type": "git",
@@ -15,5 +19,6 @@
   "bugs": {
     "url": "https://github.com/bahrus/transient-style/issues"
   },
-  "homepage": "https://github.com/bahrus/transient-style#readme"
+  "homepage": "https://github.com/bahrus/transient-style#readme",
+  "_id": "transient-style@0.0.0"
 }
