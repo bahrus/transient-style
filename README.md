@@ -11,11 +11,20 @@ Syntax:
 ```html
 <transient-style remove-when='["transient-style"]' is-defined>
     <style>
-        * {
+        div.forgive {
+            display: block;
+        }
+        div.spirit {
             display: none;
         }
     </style>
 </transient-style>
-<div>Forgive them; for they do not know what they are doing.</div>
+<style>
+    .forgive{
+        display: none;
+    }
+</style>
+<div class=forgive>Forgive them; for they do not know what they are doing.</div>
+<div class=spirit>Into your hands I commit my spirit.</div>
 ```
 
