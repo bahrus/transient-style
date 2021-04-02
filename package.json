@@ -1,6 +1,6 @@
 {
   "name": "transient-style",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "TBD",
   "main": "transient-style.js",
   "module": "transient-style",
@@ -20,6 +20,5 @@
   "bugs": {
     "url": "https://github.com/bahrus/transient-style/issues"
   },
-  "homepage": "https://github.com/bahrus/transient-style#readme",
-  "_id": "transient-style@0.0.0"
+  "homepage": "https://github.com/bahrus/transient-style#readme"
 }
