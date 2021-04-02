@@ -4,6 +4,8 @@
 
 <img src="https://badgen.net/bundlephobia/minzip/transient-style">
 
+[![Actions Status](https://github.com/bahrus/transient-style/workflows/CI/badge.svg)](https://github.com/bahrus/transient-style/actions?query=workflow%3ACI)
+
 transient-style is a martyr component.  It removes itself from the DOM tree when the web component definitions it monitors for become registered. 
 
 The biggest use case is providing initial css rules for light children, prior to being slotted.  This is important for avoiding FOUC.  But leaving the styles behind when no longer applicable, could have a lasting negative impact on other light children waiting for their web components to become registered, as well as non-shadowed content.
