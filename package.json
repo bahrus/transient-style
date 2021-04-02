@@ -2,7 +2,8 @@
   "name": "transient-style",
   "version": "0.0.0",
   "description": "TBD",
-  "main": "index.js",
+  "main": "transient-style.js",
+  "module": "transient-style",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "serve": "node node_modules/xtal-test/serve.js"
