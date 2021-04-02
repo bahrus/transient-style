@@ -7,7 +7,7 @@ Plus there's overhead to having styles which aren't meant to apply to anything.
 Syntax:
 
 ```html
-<transient-style remove-when='["my-custom-element-1", "my-custom-element-2"]'>
+<transient-style remove-when='["my-custom-element-1", "my-custom-element-2"]' is-defined>
     <style>
         my-class:{
             color:red;

@@ -1,0 +1,18 @@
+{
+	"compilerOptions": {
+		"target": "esnext",
+		"module":"esnext",
+		"sourceMap": false,
+		"experimentalDecorators": false,
+		"strict": true,
+		"newLine": "LF",
+		"watch": true
+	},
+	"files":[
+		"transient-style.ts"
+	],
+	"exclude":[
+		"./node_modules/*"
+	]
+
+}
